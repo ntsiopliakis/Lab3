@@ -520,11 +520,12 @@ image::file6.png[]
         PrepodUdachca =  StudentUdacha ^ PrepodUdachca ;
         StudentUdacha ^= PrepodUdachca ;
     }
-
-
++
 .. Инициализация переменной *StudentUdacha* значением 10.
 .. Инициализация переменной *PrepodUdachca* значением 0.
 .. Присвоение переменной *StudentUdacha* значения 10|0 = 10.
 .. Присвоение переменной *PrepodUdachca* значения 10|0 = 10.
 .. Присвоение переменной *StudentUdacha* значения 10|10 = 0.
 
++
+Код обеспечивает обмен переменных значениями  без использования буферной переменной.
